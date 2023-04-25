@@ -9,6 +9,7 @@ public interface INextBestMoveRequestQueue
 
 public class NextBestMoveRequestQueue : INextBestMoveRequestQueue
 {
+    // C# ConcurrentQueue is a thread-safe collection class. It provides a thread-safe First-In-First-Out (FIFO) data structure.
     private ConcurrentQueue<NextBestMoveRequest> _queue = new ConcurrentQueue<NextBestMoveRequest>();
 
     public int Length => _queue.Count;
