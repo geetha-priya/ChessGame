@@ -5,7 +5,8 @@ C# classes for the Chess Game can be found in `/src/model` folder.
 
 Please refer inline comments for more description on individual classes.
 
-![Screenshot from 2023-04-25 18-26-24](https://user-images.githubusercontent.com/19142608/234245180-f8aa3fab-50ca-4275-bee4-8f3124825118.png)
+UML Diagram
+![Screenshot from 2023-04-25 20-00-49](https://user-images.githubusercontent.com/19142608/234251074-381e5326-2fc2-48b0-b475-ca78b8a1928f.png)
 
 ### TASK: WebAPI
 Implementation for the requested APIs can be found in `/src/contollers/gameController.cs`
